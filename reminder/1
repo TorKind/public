@@ -1,0 +1,17 @@
+Para um novo usuário, o sistema deve gerar um IDENTIFICADOR único. 
+Para isso, na tabela "Usuário", o sistema precisá de, além dos dados habituais de cadastro, dois campos: 
+"IDENTIFICADOR" (que deve ser válido) e 
+"VERIFICA_SE_JA_FOI_USADO", 
+Assim, o identificador só poderá ser usado CASO o usuário não tenha sido cadastro.
+
+*Ao gerar o identificador, o nickname já fica preenchido.
+
+$Na tabela:
+
+IDENTIFICADOR - XYZ123 (calcular qual melhor forma)
+NOME - FULANO
+DADO1 - null
+DADO2 - null
+VERIFICA_SE_JA_FOI_USADO - false
+
+Será retornada no primeiro login para efetuar o cadastro.
