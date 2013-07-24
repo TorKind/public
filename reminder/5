@@ -1,0 +1,4 @@
+Para eu te ensinar a linguagem, eu tenho que te passar as dicas de como configurar o teu ambiente. Você vai precisar de duas variáveis de ambiente: JAVA_HOME e GRAILS_HOME. O que são variáveis de ambiente? São caminhos "compreensíveis" para o teu computador. Ou seja, eles entendem o caminho como um "alias".
+
+Se você abrir o prompt de comando do windows e digitar: set Você vai ver todas as variáveis de ambiente já existentes no teu computador.
+
